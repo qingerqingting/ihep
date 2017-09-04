@@ -1,0 +1,24 @@
+#include "$ROOTIOROOT/share/jobOptions_ReadRec.txt"
+#include "$MAGNETICFIELDROOT/share/MagneticField.txt"
+#include "$ABSCORROOT/share/jobOptions_AbsCor.txt"
+#include "$VERTEXFITROOT/share/jobOptions_VertexDbSvc.txt"
+#include "$G2K2PI2ALGROOT/share/jobOptions_G2K2Pi2.txt" 
+
+// Input REC or DST file name
+EventCnvSvc.digiRootInputFile = 
+{
+"/besfs/users/lvxd/workarea/mc/mc1/rec/rec_NUM.dst"
+};
+
+
+// Set output level threshold (2=DEBUG, 3=INFO, 4=WARNING, 5=ERROR, 6=FATAL )
+MessageSvc.OutputLevel = 5;
+
+// Number of events to be processed (default is 10)
+ApplicationMgr.EvtMax = -1;
+
+ApplicationMgr.HistogramPersistency = "ROOT";
+
+G2K2Pi2.OutputFileName = { "./ana_NUM.root"};
+
+

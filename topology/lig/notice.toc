@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Modes list in decreasing order}{2}
+\contentsline {subsection}{\numberline {1.1}Decay modes }{2}
+\contentsline {subsection}{\numberline {1.2}Total number of events is 13558}{9}
+\contentsline {section}{\numberline {2}Modes rearanged by types of final states}{9}
+\contentsline {subsection}{\numberline {2.1} Types of final states }{9}
+\contentsline {subsection}{\numberline {2.2} Total number of types of final states 6}{16}

@@ -1,0 +1,37 @@
+#do not change the order of the following string
+################################
+##  put your tree name below  ##
+################################
+TreeRes
+#TreeAna
+
+##################################
+##  put your path & file below  ##
+##################################
+#/afs/ihep.ac.cn/users/l/longyf/workarea/workarea664/run/G3Pi2K2/analysis/output_inclusivemc_g3pi2k2_0912.root
+#/afs/ihep.ac.cn/users/l/longyf/workarea/workarea664/run/G3Pi2K2/analysis/output_bkg_phietaetap_g3pi2k2_0912.root
+#/afs/ihep.ac.cn/users/l/longyf/store/phietaetap/ana_101.root
+#/afs/ihep.ac.cn/users/l/longyf/workarea/workarea664/run/G3Pi2K2/bkg/phietaetap/test/bkg_phietaetap_50w.root
+#/afs/ihep.ac.cn/users/l/longyf/store/sigmc_g4pi2k2/ana_101.root
+#/scratchfs/higgs/lvxd/g3pi2k2/inclusivemc/output_inclumc_g3pi2k2.root
+#/scratchfs/higgs/lvxd/g4pi2k2/sum/output_inclumc_g4pi2k2.root
+#/besfs/users/lvxd/workarea/mc/mc10/result/g3pi2k2/output_inclumc_g3pi2k2.root
+#/besfs/users/lvxd/workarea/mc/mc10/result/g4pi2k2/output_inclumc_g4pi2k2.root
+#/besfs/users/lvxd/workarea/mc/mc10/result/g3pi2k2/output_inclumc_g3pi2k2.root
+#/besfs/users/lvxd/workarea/mc/inclusivemc11/result/new/output_inclusivemc_g2pi2k2.root
+#/scratchfs/higgs/lvxd/wangmengzhen/ana/output_sigmc_g2pi2k4.root
+#/scratchfs/higgs/lvxd/g2pi2k2/inclusivemc/test/output_inclusivemc_g2pi2k2.root
+#/scratchfs/higgs/lvxd/wangmengzhen/inclusivemc/output_inclusivemc_g2pi4k2.root
+#/scratchfs/higgs/lvxd/g2pi2k2/inclusivemc/output_inclusivemc_g2pi2k2.root
+/scratchfs/higgs/lvxd/g2pi2k2/inclusivemc/output_inclusivemc_g2pi2k2.root
+########################################
+## "0" will ignore as a string below  ##
+########################################
+#TOPO START USE Cut 1
+TOPO START USE Cut 0
+
+######################################
+##  put your cut as a string below  ##
+######################################
+#mode_63==63&&mode2==14&&deltaE_63>-0.030000&&deltaE_63<0.020000&&(m_PipPim>0.52||m_PipPim<0.48)&&(m_P_SgmPim>1.12||m_P_SgmPim<1.11)&&(mBC_63>2.278000&&mBC_63<2.294000)
+#mode_63==63&&mode2==14&&deltaE_63>-0.030000&&deltaE_63<0.020000&&mBC_63>2.278000&&mBC_63<2.294000

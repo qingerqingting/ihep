@@ -1,0 +1,17 @@
+#!/bin/bash
+num=1
+nnum=1
+myrandom=2016
+while (($nnum<=50))
+do 
+rm -f sim_$num.txt 
+awk  '{flag = 1}
+     {sub(/NUM/,'$myrandom')}
+     {if(flag == 1) {print $0} else {next} }' \
+  ./sim.txt > sim_$num.txt
+  boss.condor sim_$num.txt
+let num+=1
+let nnum+=1
+let myrandom+=1
+done
+

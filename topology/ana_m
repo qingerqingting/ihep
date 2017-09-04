@@ -1,0 +1,5 @@
+./topology_m; 
+mv mclist.txt lig/ ; 
+cd lig; 
+python top.py; 
+make; 

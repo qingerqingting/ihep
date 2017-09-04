@@ -1,0 +1,8 @@
+--- Warning from G4Material::G4Material() define a material with density=0 is not allowed. 
+ The material Galactic will be constructed with the default minimal density: 1e-25g/cm3
+WARNING - G4Navigator::ComputeStep()
+          Track stuck, not moving for 10 steps
+          in volume -logicalEndPhi0- at point (-298.1412258,-500.4627484,-1624.692399)
+          direction: (0.2972552177,0.2076428643,-0.9319462305).
+          Potential geometry or navigation problem !
+          Trying pushing it of 9e-10 mm ...
